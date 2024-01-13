@@ -1,0 +1,50 @@
+#1 2V  0.4178    0.0881         0    0.1213   26.5928    0.0087    1.5400
+#2 4V  0.4202    0.0899         0    0.1213   23.8970    0.0048    1.5400
+#3 6V  0.4118    0.0881         0    0.1213   23.1800    0.0028    1.5400
+#4 8V  0.4118    0.0892         0    0.1213   23.1077    0.0018    1.5400
+#5 10V 0.4118    0.0881         0    0.1213   23.1016    0.0014    1.5400
+#6 12V 0.4160    0.0890         0    0.1225   23.1000    0.0014    1.5500
+
+optym_M  = [0.4178;0.4202;0.4118;0.4118;0.4118;0.4160];
+optym_mp = [0.0881;0.0899;0.0881;0.0892;0.0881;0.0890];
+optym_mc = [0;0;0;0;0;0;]
+optym_Lp = [0.1213;0.1213;0.1213;0.1213;0.1213;0.1225];
+optym_B  = [26.5928;23.8970;23.1800;23.1077;23.1016;23.1000];
+optym_gm = [0.0087;0.0048;0.0028;0.0018;0.0014;0.0014];
+optym_al = [1.5400;1.5400;1.5400;1.5400;1.5400;1.5500];
+
+#1 #2
+    M               = 0.416;   % Masa wózka
+    mp              = 0.089;   % Masa pręta
+    mc              = 0.0001;  % Dodatkowa masa na końcu pręta
+    Lp              = 0.245/2; % Połowa długości pręta
+    b_vis           = 19.225;  % Współczynnik tarcia lepkiego, wózek
+    gamma_vis       = 0.0005;  % Współczynnik tarcia lepkiego, ramię
+    alpha_dcm       = 1.55;    % Papier 1.7189
+    beta_dcm        = 7.5;     % Papier 7.682
+    B=23
+
+#3
+    M               = 0.416;   % Masa wózka
+    mp              = 0.089;   % Masa pręta
+    mc              = 0.0001;  % Dodatkowa masa na końcu pręta
+    Lp              = 0.245/2; % Połowa długości pręta
+    b_vis           = 19.225;  % Współczynnik tarcia lepkiego, wózek
+    gamma_vis       = 0.0009;  % Współczynnik tarcia lepkiego, ramię
+    alpha_dcm       = 1.55;    % Papier 1.7189
+    beta_dcm        = 7.5;     % Papier 7.682
+    B=23
+
+#4 #5 #6
+    M               = 0.416;   % Masa wózka
+    mp              = 0.089;   % Masa pręta
+    mc              = 0.0001;  % Dodatkowa masa na końcu pręta
+    Lp              = 0.245/2; % Połowa długości pręta
+    b_vis           = 19.225;  % Współczynnik tarcia lepkiego, wózek
+    gamma_vis       = 0.0015;  % Współczynnik tarcia lepkiego, ramię
+    alpha_dcm       = 1.55;    % Papier 1.7189
+    beta_dcm        = 7.5;     % Papier 7.682
+    B = 23.1;
+
+
+
