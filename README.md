@@ -1,6 +1,6 @@
 Matlab and python scripts developed for linear inverted pendulum build, control system design and implementation project.
 
-Down and up position controller is based on LQR, swingup is done with optimal trajectory (optimTraj for Matlab): 
+Down and up position controller is based on LQR, swingup was done with optimal trajectory (optimTraj for Matlab): 
 https://github.com/MatthewPeterKelly/OptimTraj
 
 Python (sympy, numpy, matplotlib) is used to derive pendulum model and draw some phase portraits of nonlinear and linear models. 
