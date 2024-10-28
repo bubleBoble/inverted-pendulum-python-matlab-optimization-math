@@ -8,8 +8,8 @@ Python (sympy, numpy, matplotlib) is used to derive pendulum model and draw some
 Implementation of controller app on stm32 microcontroller: 
 https://github.com/bubleBoble/invertedPendulumStmFreeRTOSapp/tree/master
 
-Videos of real device:\
-https://drive.google.com/drive/folders/163VPpn8IbY97kRAhWoEIGUsHin9m1j5x?usp=sharing
+Videos of real device and simulation:\
+https://www.youtube.com/playlist?list=PLLyk_frqcOGw6XyiyMOqAa3b0tapfJQMq
 
 <b> Final build: </b>
 <img title="Finished pendulum" alt="" src="./imgs/allallinone.png">
