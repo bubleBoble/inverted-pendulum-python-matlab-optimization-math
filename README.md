@@ -5,8 +5,8 @@ https://github.com/MatthewPeterKelly/OptimTraj
 
 Python (sympy, numpy, matplotlib) is used to derive pendulum model and draw some phase portraits of nonlinear and linear models. 
 
-Implementation of controller app on stm32 microcontroller: 
-https://github.com/bubleBoble/invertedPendulumStmFreeRTOSapp/tree/master
+Implementation of controller app on STM32 MCU: 
+https://github.com/bubleBoble/inverted-pendulum-stm-FreeRTOS-app
 
 Videos of real device and simulation:\
 https://www.youtube.com/playlist?list=PLLyk_frqcOGw6XyiyMOqAa3b0tapfJQMq
